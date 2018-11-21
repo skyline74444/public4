@@ -1,0 +1,1 @@
+$(window).on("load",function(){$("#nav-toggle").click(function(){$("#nav-toggle").toggleClass("active")}),$(".count").each(function(){$(this).prop("Counter",0).animate({Counter:$(this).text()},{duration:7e3,easing:"swing",step:function(t){$(this).text(Math.ceil(t))}})}),$(".num_box").easyPieChart({barColor:"#574472",lineWidth:10,lineCap:"circle",size:"220",scaleColor:!1})});
